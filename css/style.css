@@ -1,0 +1,100 @@
+.login__form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: rgb(111, 111, 238);
+    justify-content: center;
+}
+
+.login__header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+
+}
+
+.login__header img{
+    width: 200px;
+}
+.login__header img{
+    color: #333;
+    font-size: 1.5em;
+}
+
+.login__input{
+    border: 2px solid #333;
+    border-radius: 8px;
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 15px;
+    max-width: 300px;
+    outline: none;
+    padding: 15px;
+    width: 100%;
+}
+.login__button{
+    background-color: orangered;
+    border-radius: 8px;
+    color: #fefefe;
+    padding: 15px;
+    font-size: 1em;
+    max-width: 300px;
+    cursor: pointer;
+
+}
+.login__button:disabled{
+ background-color: antiquewhite; 
+ color: #333; 
+ cursor: auto; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: white;
+    margin: 0;
+}
+.container {
+    text-align: center;
+}
+
+.game-board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+}
+.card {
+    background-color: #ecf0f1;
+    border: 2px solid #34495e;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.card.matched {
+    background-color: #27ae60;
+    pointer-events: none;
+} */
